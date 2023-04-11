@@ -212,3 +212,33 @@ align-items: center;
     margin-top: 4rem;
 }
 
+/**Sobre Nosotros**/
+@media (min-width: 768px) {
+
+.sobre-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    
+    
+    }
+}
+/**Sobre Nosotros**/
+
+.curso {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+@media (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-template-columns: 33.3%, 
+    }
+    
+}
+
+.curso:last-of-type { 
+    border: none;
+        
+}
+
